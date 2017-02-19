@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json.schemastore.org/web-manifest#",
+  "name": "Internet Relay Chat Client",
+  "short_name": "IRC",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "description": "A feature-free IRC client.",
+  "icons": [
+    {
+      "src": "./favicon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ]
+}

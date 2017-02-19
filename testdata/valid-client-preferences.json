@@ -1,0 +1,13 @@
+{
+    "$schema": "https://headcr4sh.github.io/irc/schema/client-preferences.schema.json#",
+    "networks": {
+        "freenode": {
+            "servers": [
+                {
+                    "hostname": "irc.freenode.org",
+                    "port": 6667
+                }
+            ]
+        }
+    }
+}

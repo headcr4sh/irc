@@ -1,0 +1,17 @@
+{
+    "name": "@headcr4sh/irc-client-app",
+    "description": "Internet Relay Chat Client",
+    "license": "",
+    "dependencies": {
+      "electron": "^1.6.6"
+    },
+    "devDependencies": {
+        "@types/electron": "^1.4.37",
+        "typescript": "^2.3.2"
+    },
+    "productName": "Internet Relay Chat Client",
+    "main": "./main.js",
+    "scripts": {
+        "start": "tsc && tsc -p www/scripts && tsc -p www/sw && electron ."
+    }
+}

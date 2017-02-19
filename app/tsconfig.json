@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "inlineSourceMap": true,
+        "module": "commonjs",
+        "strictNullChecks" :true,
+        "target": "es2015"
+    },
+    "files": [
+        "main.ts"
+    ]
+}

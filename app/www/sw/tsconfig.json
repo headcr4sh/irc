@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "inlineSourceMap": true,
+        "module": "none",
+        "strictNullChecks" :true,
+        "target": "es2017",
+        "outFile": "../sw.js"
+    }
+}
