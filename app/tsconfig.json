@@ -2,7 +2,7 @@
     "compilerOptions": {
         "inlineSourceMap": true,
         "module": "commonjs",
-        "strictNullChecks" :true,
+        "strictNullChecks": true,
         "target": "es2015"
     },
     "files": [

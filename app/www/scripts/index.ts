@@ -1,4 +1,4 @@
-import { IRCServiceWorkerElement } from "./IRCServiceWorkerElement";
+import {IRCServiceWorkerElement} from "./IRCServiceWorkerElement";
 
 (async () => {
     const swElement = document.querySelector("irc-service-worker") as IRCServiceWorkerElement;

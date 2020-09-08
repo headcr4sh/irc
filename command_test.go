@@ -34,7 +34,7 @@ func TestCommand_IsNumericReply(t *testing.T) {
 	}
 	for _, td := range testData {
 		if isr := td.cmd.IsNumericReply(); isr != td.isr {
-			t.Errorf("%s.IsNumericReply() -> %b, expected: %b", td.cmd, isr, td.isr)
+			t.Errorf("%s.IsNumericReply() -> %v, expected: %v", td.cmd, isr, td.isr)
 		}
 	}
 }
